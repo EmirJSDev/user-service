@@ -1,0 +1,51 @@
+# Компилированные файлы TypeScript
+/dist
+/build
+
+# Папка node_modules
+/node_modules
+
+# База данных SQLite
+/users.db
+/users.db-journal
+
+# Логи
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Папка с отчетами о покрытии тестов
+/coverage
+/.nyc_output
+
+# IDE и редакторы
+/.idea
+.vscode/
+*.launch
+*.sublime-workspace
+*.sublime-project
+
+# Файлы переменных окружения
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Временные файлы и кэш
+.temp
+.tmp
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Отчеты диагностики Node.js
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
